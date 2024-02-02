@@ -5,14 +5,14 @@ The classification analysis aims to determine whether an individual has a family
 The dataset is sourced from the UCI Machine Learning repository, comprising 17 attributes and 2111 records spanning Mexico, Peru, and Colombia. It covers diverse aspects such as Eating Habits, Physical Condition, and Other Features, providing comprehensive insights into lifestyle and health factors. The "NObeyesdad" indicates obesity levels (Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II and Obesity Type III). Other features include Gender, Age, Height, Weight, Family History with Overweight, Frequency of consuming high-caloric food (FAVC), Frequency of vegetable consumption (FCVC), Number of main meals (NCP), Consumption of food between meals (CAEC), Daily water consumption (CH20), Alcohol consumption (CALC), Monitoring calories consumption (SCC), Frequency of physical activity (FAF), Time spent using technology devices (TUE), Mode of transportation used (MTRANS), Level of smoking (SMOKE), and Time using technology devices (TUE).
 
 **Result**
-1. Decision Tree Classification Results:
+Decision Tree Classification Results:
 On Testing Set:
 Precision: 93.29%
 Accuracy: 86.05%
 Recall: 89.21%
 F1 Score: 91.21%
 
-2. Random Forest Classification Results:
+Random Forest Classification Results:
 On Testing Set:
 Precision: 94.51%
 Accuracy: 87.94%
