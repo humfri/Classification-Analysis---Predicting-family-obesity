@@ -4,6 +4,22 @@ The classification analysis aims to determine whether an individual has a family
 **Dataset**:
 The dataset is sourced from the UCI Machine Learning repository, comprising 17 attributes and 2111 records spanning Mexico, Peru, and Colombia. It covers diverse aspects such as Eating Habits, Physical Condition, and Other Features, providing comprehensive insights into lifestyle and health factors. The "NObeyesdad" indicates obesity levels (Normal Weight, Overweight Level I, Overweight Level II, Obesity Type I, Obesity Type II and Obesity Type III). Other features include Gender, Age, Height, Weight, Family History with Overweight, Frequency of consuming high-caloric food (FAVC), Frequency of vegetable consumption (FCVC), Number of main meals (NCP), Consumption of food between meals (CAEC), Daily water consumption (CH20), Alcohol consumption (CALC), Monitoring calories consumption (SCC), Frequency of physical activity (FAF), Time spent using technology devices (TUE), Mode of transportation used (MTRANS), Level of smoking (SMOKE), and Time using technology devices (TUE).
 
+## Dependencies
+
+Make sure to have the following Python libraries installed to run the code:
+
+- [pandas](https://pandas.pydata.org/) (version >= 1.3.3)
+- [seaborn](https://seaborn.pydata.org/) (version >= 0.11.2)
+- [numpy](https://numpy.org/) (version >= 1.21.2)
+- [matplotlib](https://matplotlib.org/) (version >= 3.4.3)
+- [scikit-learn](https://scikit-learn.org/stable/) (version >= 0.24.2)
+- [imbalanced-learn](https://imbalanced-learn.org/stable/) (version >= 0.8.0)
+
+You can also install the required packages using the following command:
+
+```bash
+pip install pandas==1.3.3 seaborn==0.11.2 numpy==1.21.2 matplotlib==3.4.3 scikit-learn==0.24.2 imbalanced-learn==0.8.0
+
 **Result**
 1. Decision Tree Classification Results:
  On Testing Set:
@@ -22,18 +38,4 @@ The dataset is sourced from the UCI Machine Learning repository, comprising 17 a
 **Conclusion**
 The classification analysis successfully predicts family obesity using both the Decision Tree and Random Forest classifier models. Random Forest which is an ensemble of decision trees, demonstrates better performance on various metrics compared to the individual Decision Tree. The two models exhibit strong generalization capabilities as evident from cross-validation results. However, the presence of overfitting signals the necessity for fine-tuning or exploring additional techniques to enhance model robustness. Considering the context of the problem, future iterations may involve feature engineering and hyperparameter optimization to further improve predictive accuracy. The analysis and results provide valuable insights into the classification task and can guide future refinements for better model performance.
 
-## Dependencies
 
-Make sure to have the following Python libraries installed to run the code:
-
-- [pandas](https://pandas.pydata.org/) (version >= 1.3.3)
-- [seaborn](https://seaborn.pydata.org/) (version >= 0.11.2)
-- [numpy](https://numpy.org/) (version >= 1.21.2)
-- [matplotlib](https://matplotlib.org/) (version >= 3.4.3)
-- [scikit-learn](https://scikit-learn.org/stable/) (version >= 0.24.2)
-- [imbalanced-learn](https://imbalanced-learn.org/stable/) (version >= 0.8.0)
-
-You can also install the required packages using the following command:
-
-```bash
-pip install pandas==1.3.3 seaborn==0.11.2 numpy==1.21.2 matplotlib==3.4.3 scikit-learn==0.24.2 imbalanced-learn==0.8.0
