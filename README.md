@@ -19,7 +19,7 @@ You can also install the required packages using the following command:
 
 ```bash
 pip install pandas==1.3.3 seaborn==0.11.2 numpy==1.21.2 matplotlib==3.4.3 scikit-learn==0.24.2 imbalanced-learn==0.8.0
-
+exit
 **Result**
 1. Decision Tree Classification Results:
  On Testing Set:
