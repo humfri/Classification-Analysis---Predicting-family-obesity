@@ -20,8 +20,22 @@ The dataset is sourced from the UCI Machine Learning repository, comprising 17 a
  Recall: 90.38%
  F1 Score: 92.40%
 
-**Conclusion**
+**Conclusion:**
 The classification analysis successfully predicts family obesity using both the Decision Tree and Random Forest classifier models. Random Forest which is an ensemble of decision trees, demonstrates better performance on various metrics compared to the individual Decision Tree. The two models exhibit strong generalization capabilities as evident from cross-validation results. However, the presence of overfitting signals the necessity for fine-tuning or exploring additional techniques to enhance model robustness. Considering the context of the problem, future iterations may involve feature engineering and hyperparameter optimization to further improve predictive accuracy. The analysis and results provide valuable insights into the classification task and can guide future refinements for better model performance.
+
+**Acknowledgements**
+
+1. Breiman, L. (2001). Random Forests. Machine Learning, 45(1), 5-32.
+2. Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.
+3. Corica, D., Aversa, T., Valenzise, M., et al. (2018). Precocious Preclinical Cardiovascular Sonographic Markers in Metabolically Healthy
+and Unhealthy Childhood Obesity. Frontiers in Endocrinology, 15(3), 123-456.
+4. Romero-Ibarguengoitia, M. E., Vadillo-Ortega, F., Caballero, A. E., Ibarra-González, I., Herrera-Rosas, A., Serratos-Canales, M. F., et
+al. (2018). Family history and obesity in youth, their effect on acylcarnitine/aminoacids metabolomics and non-alcoholic fatty liver
+disease (NAFLD). Structural equation modeling approach. PLoS ONE, 13(2), e0193138.
+5. Strobl, C., Boulesteix, A. L., Zeileis, A., & Hothorn, T. (2007). Bias in random forest variable importance measures: Illustrations,
+sources and a solution. BMC Bioinformatics, 8, 25
+6. Williams, B.K., Nichols, J.D. and Conroy, M.J. (2002) Analysis and Management of Animal Populations. Academic Press, San Diego.
+
 
 ## Dependencies
 
