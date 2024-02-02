@@ -25,8 +25,6 @@ The classification analysis successfully predicts family obesity using both the 
 
 ## Dependencies
 
-Make sure to have the following Python libraries installed to run the code:
-
 - [pandas](https://pandas.pydata.org/) (version >= 1.3.3)
 - [seaborn](https://seaborn.pydata.org/) (version >= 0.11.2)
 - [numpy](https://numpy.org/) (version >= 1.21.2)
