@@ -1,3 +1,5 @@
+**Title:** Classification Analysis - Predicting family obesity
+
 **Introduction**:
 The classification analysis aims to determine whether an individual has a family history of overweight by considering a set of features, ranging from eating habits to lifestyle choices. Two classification methods are employed: Decision Tree and Random Forest. The Decision Tree Classification employs a supervised learning algorithm, utilising the scikit-learn Decision Tree Classifier. This classifier divides the dataset into subsets based on significant attributes, creating a tree-like structure for classification. In contrast, Random Forest Classification, an ensemble learning approach, combines predictions from multiple decision trees. The scikit-learn Random Forest Classifier creates a forest of decision trees trained on random subsets of the data, enhancing accuracy and robustness through aggregated predictions.
 
