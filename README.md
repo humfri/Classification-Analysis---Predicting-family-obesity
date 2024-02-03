@@ -25,7 +25,7 @@ The dataset is sourced from the UCI Machine Learning repository, comprising 17 a
 **Conclusion:**
 The classification analysis successfully predicts family obesity using both the Decision Tree and Random Forest classifier models. Random Forest which is an ensemble of decision trees, demonstrates better performance on various metrics compared to the individual Decision Tree. The two models exhibit strong generalization capabilities as evident from cross-validation results. However, the presence of overfitting signals the necessity for fine-tuning or exploring additional techniques to enhance model robustness. Considering the context of the problem, future iterations may involve feature engineering and hyperparameter optimization to further improve predictive accuracy. The analysis and results provide valuable insights into the classification task and can guide future refinements for better model performance.
 
-**Acknowledgements**
+**Acknowledgement**
 
 1. Breiman, L. (2001). Random Forests. Machine Learning, 45(1), 5-32.
 2. Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.
